@@ -1,0 +1,10 @@
+i = int(input('Ingresar numero: '))
+
+if i%2==0 and i%3==0: 
+ print("Es multiplo de 2 y de 3")
+elif i%2==0: 
+ print("Es multiplo de 2")
+elif i%3==0: 
+ print("Es multiplo de 3")
+else:
+ print("No es multiplo ni de 2 ni de 3")
